@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "a0a59ec2-c7d1-4ecd-a5a4-4d1cab01d0f0",
+		"name": "天气测试",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44466274",
+		"_collection_link": "https://lzy-9456706.postman.co/workspace/lzy's-Workspace~7eddbf51-d3b5-4cb3-898b-e160c9c2cee1/collection/44466274-a0a59ec2-c7d1-4ecd-a5a4-4d1cab01d0f0?action=share&source=collection_link&creator=44466274"
+	},
+	"item": [
+		{
+			"name": "武汉",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getWeatherbyCityName?theCityName=武汉",
+					"protocol": "http",
+					"host": [
+						"www",
+						"webxml",
+						"com",
+						"cn"
+					],
+					"path": [
+						"WebServices",
+						"WeatherWebService.asmx",
+						"getWeatherbyCityName"
+					],
+					"query": [
+						{
+							"key": "theCityName",
+							"value": "武汉"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "北京",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getWeatherbyCityName?theCityName=北京",
+					"protocol": "http",
+					"host": [
+						"www",
+						"webxml",
+						"com",
+						"cn"
+					],
+					"path": [
+						"WebServices",
+						"WeatherWebService.asmx",
+						"getWeatherbyCityName"
+					],
+					"query": [
+						{
+							"key": "theCityName",
+							"value": "北京"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "上海",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getWeatherbyCityName?theCityName=上海",
+					"protocol": "http",
+					"host": [
+						"www",
+						"webxml",
+						"com",
+						"cn"
+					],
+					"path": [
+						"WebServices",
+						"WeatherWebService.asmx",
+						"getWeatherbyCityName"
+					],
+					"query": [
+						{
+							"key": "theCityName",
+							"value": "上海"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
